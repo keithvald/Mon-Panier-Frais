@@ -1,0 +1,213 @@
+@font-face
+{
+	font-family: "amienne";
+	src: url('../FONT/Amienne Regular.ttf');
+}
+
+/*------------------------------------------ HEADER ---------------------------------------------*/
+
+header
+{
+	background-image: url('../IMAGES/HEADER/fondbois.jpg');
+	margin-top: -1.5%;
+}
+
+/*---------------------- NAV ----------------------*/
+
+nav:hover
+{
+	width: 100%;
+	background-color: rgba( 0, 0, 0, 0.6);
+}
+.nav
+{
+	display: flex;
+	justify-content: space-around;
+}
+
+.accueil
+{
+	font-size: 2.5em;
+	font-family: "amienne";
+	color: #CCFF99;
+}
+
+.regions
+{
+	font-size: 2.5em;	
+	font-family: "amienne";
+	color: #B3FF66;
+}
+
+.produits
+{
+	font-size: 3.5em;
+	font-family: "amienne";	
+	color: #8AFF30;
+}
+
+.histoire
+{
+	font-size: 2.5em;
+	font-family: "amienne";	
+	color: #FF3333;
+}
+
+.contact
+{
+	font-size: 2.5em;
+	font-family: "amienne";	
+	color: #FF8000;
+}
+
+.nav-link:hover
+{
+	color: white;
+}
+
+/*---------------------------------------- FIN HEADER -------------------------------------------*/
+
+
+
+
+
+
+
+
+/*---------------------------------------- BIENVENUE --------------------------------------------*/
+
+.container-fluid
+{
+	display: flex;
+	justify-content: center;
+}
+
+/*-------------------------------------- FIN BIENVENUE ------------------------------------------*/
+
+
+
+
+
+
+
+
+
+/*----------------------------------------- BOUTONS ----------------------------------------------*/
+
+.BLOCK-BUTTON
+{
+
+	display: flex;
+	justify-content: space-around;
+
+}
+
+
+.confitures
+{
+	background-color:  #CCFF99;
+	font-family: "amienne";	
+	font-size: 2em;	
+	color: white;
+}
+
+.boissons
+{
+	background-color:  #B3FF66;
+	font-family: "amienne";
+	font-size: 2em;
+	color: white;			
+}
+
+.produit
+{
+	background-color:  #8AFF30;
+	font-family: "amienne";
+	font-size: 2em;	
+	color: white;	
+}
+
+.fruits
+{
+	background-color:  #FF3333;
+	font-family: "amienne";
+	font-size: 2em;	
+	color: white;	
+}
+
+.legumes
+{
+	background-color:  #FF8000;
+	font-family: "amienne";
+	font-size: 2em;	
+	color: white;	
+}
+
+
+/*--------------------------------------- FIN BOUTONS ---------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------------- ALL ---------------------------------------------*/
+
+.card
+{
+	border: none;
+}
+
+.card-title
+{
+	font-family: "amienne";
+	font-size: 2em;
+}
+
+.h2
+{
+	font-family: "amienne";
+	font-size: 4em;
+}
+
+
+/*----------------------------------------- FIN ALL -------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------------------- FOOTER ------------------------------------------------*/
+
+
+footer
+{
+	background-image: url('../IMAGES/HEADER/fondbois.jpg');
+	color: white;
+}
+
+.contact-footer
+{
+	font-family: "amienne";
+	font-size: 2em;
+	text-align: center;
+}
+
+.h3
+{
+	font-size: 3em;
+}
+
+/*--------------------------------------- FIN FOOTER -----------------------------------------------*/
